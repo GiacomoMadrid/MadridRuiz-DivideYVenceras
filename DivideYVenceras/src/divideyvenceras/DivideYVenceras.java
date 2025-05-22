@@ -34,7 +34,7 @@ public class DivideYVenceras {
                 int resultado = AckermannRecursiva.calcular(m, n);
                 System.out.println("Resultado recursivo: " + resultado);
             } catch (StackOverflowError e) {
-                System.out.println("¡Desbordamiento de pila en la versión recursiva!");
+                System.out.println("Desbordamiento de pila en la version recursiva!");
             }
         }, "Recursiva");
 
