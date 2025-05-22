@@ -27,7 +27,7 @@ public class DivideYVenceras {
         System.out.print("Ingrese el valor de n: ");
         int n = scanner.nextInt();
 
-        System.out.println("\n== Función de Ackermann ==");
+        System.out.println("\n****** Función de Ackermann ******");
 
         MedidorTiempo.medir(() -> {
             try {
